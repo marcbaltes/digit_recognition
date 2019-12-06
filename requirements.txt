@@ -1,0 +1,6 @@
+numpy>=1.16.1+mlk
+scikit-learn>=0.22
+matplotlib>=2.2.2
+joblib>=0.14.0
+opencv-python>=3.4.2
+pillow>=5.2.0

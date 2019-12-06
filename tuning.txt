@@ -1,0 +1,45 @@
+*** kernel tuning ***
+training linear
+total time 8.599334418773651 minutes
+linear accuracy 0.9404
+
+training poly
+total time 8.807564147313435 minutes
+poly accuracy 0.9771
+
+training rbf
+total time 8.637348107496898 minutes
+rbf accuracy 0.9792
+
+training sigmoid
+total time 12.030795447031657 minutes
+sigmoid accuracy 0.7765
+
+--------------------------------------------
+
+*** C param tuning ***
+training c 0.1
+0.1 param accuracy 0.9595
+total time 13.441447246074677 minutes
+
+training c 1
+1 param accuracy 0.9792
+total time 6.46749130487442 minutes
+
+training c 10
+10 param accuracy 0.9837
+total time 6.056141710281372 minutes
+
+training c 100
+100 param accuracy 0.9833
+total time 6.146830169359843 minutes
+
+training c 1000
+1000 param accuracy 0.9833
+total time 6.9478273630142215 minutes
+--------------------------------------------
+
+
+
+
+
