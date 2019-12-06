@@ -1,5 +1,5 @@
 # Digit Recognition
-Uses an SVM model to train the MNIST data set and predict a number that was drawn by the user. The model has already been trained, tuned
+Uses an SVM model to train the MNIST data set and predict a number that was drawn by the user. The model has already been trained, tuned,
 and saved in /data as rbf_model.joblib.pkl so no training is needed. All that is needed is an input from the user via the canvas
 
 # Installation
