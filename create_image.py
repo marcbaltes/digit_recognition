@@ -8,6 +8,13 @@ that represent each pixel to be used in the model
 import numpy as np
 from PIL import Image, ImageFilter
 from matplotlib import pyplot as plt
+
+def output_img(x):
+    first_image = x
+    first_image = np.array(first_image, dtype='float')
+    pixels = first_image.reshape((28, 28))
+    plt.imshow(pixels, cmap='gray')
+    plt.show()
  
 def imageprepare(argv):
     """
@@ -48,10 +55,5 @@ def imageprepare(argv):
 
 def gen_img(filename):
     x = [imageprepare(filename)]#file path here
-    # uncomment to see mnist image
-    # first_image = x
-    # first_image = np.array(first_image, dtype='float')
-    # pixels = first_image.reshape((28, 28))
-    # plt.imshow(pixels, cmap='gray')
-    # plt.show()
+    output_img(x)
     return x[0]

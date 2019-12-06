@@ -3,6 +3,7 @@ from sklearn.svm import SVC
 import joblib
 import time
 import matplotlib.pyplot as plt
+from create_image import output_img
 
 # Function: read_data
 # Inputs:

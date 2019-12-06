@@ -1,7 +1,7 @@
 import cv2
 import numpy as np
 import os
-from create_image import gen_img
+from create_image import gen_img, output_img
 from sklearn.svm import SVC
 import matplotlib.pyplot as plt
 import joblib
@@ -17,7 +17,7 @@ start_point = None
 end_point = None
 is_drawing = False
 def draw_line(img, start_at, end_at):
-   cv2.line(img,start_at,end_at,255,13)
+   cv2.line(img,start_at,end_at,255,17)
 
 def on_mouse_events(event,x,y,flags,params):
    global start_point
@@ -53,6 +53,7 @@ while(cv2.getWindowProperty('Test Canvas', 0) >= 0):
       os.remove('./img.png')
       x = []
       x.append(arr)
+      # output_img(x)   uncomment to see the MNIST version of your number
       # predict number
       num = clf.predict(x)
       print("Predicted number:", int(num[0]))
