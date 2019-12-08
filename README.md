@@ -7,9 +7,9 @@ Clone the repo: ```git clone https://github.com/marcbaltes/digit_recognition.git
 
 Go to the directory: ```cd digit_recognition```
 
-Install dependencies: ```python -m pip install -r requirements.txt```
+Install dependencies: ```python3 -m pip install -r requirements.txt```
 
-Once everything is installed run the program using ```python digit.py```. This will pull up a blank canvas to draw on.
+Once everything is installed run the program using ```python3 digit.py```. This will pull up a blank canvas to draw on.
 
 # Inputting and Receiving data
 Once the blank canvas is opened these are the keyboard commands to use it:
