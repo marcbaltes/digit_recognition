@@ -55,5 +55,5 @@ def imageprepare(argv):
 
 def gen_img(filename):
     x = [imageprepare(filename)]#file path here
-    output_img(x)
+    # output_img(x) # uncomment to see MNIST image
     return x[0]
