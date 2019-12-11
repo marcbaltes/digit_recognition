@@ -7,9 +7,9 @@ Clone the repo: ```git clone https://github.com/marcbaltes/digit_recognition.git
 
 Go to the directory: ```cd digit_recognition```
 
-Install dependencies: ```python -m pip install -r requirements.txt```
+Install dependencies: ```python3 -m pip install -r requirements.txt```
 
-Once everything is installed run the program using ```python digit.py```. This will pull up a blank canvas to draw on.
+Once everything is installed run the program using ```python3 digit.py```. This will pull up a blank canvas to draw on.
 
 # Inputting and Receiving data
 Once the blank canvas is opened these are the keyboard commands to use it:
@@ -23,7 +23,7 @@ be shown in the terminal
 # Credits and Notes
 The .csv files of the MNIST dataset are not included in the repo so running model.py will not work. They were
 not included because their file size was too large. However, if you wish to train the model yourself you can download
-the dataset from here: [https://www.kaggle.com/oddrationale/mnist-in-csv](https://www.google.com). Place them in the /data directory and now model.py
+the dataset from here: [https://www.kaggle.com/oddrationale/mnist-in-csv](https://www.kaggle.com/oddrationale/mnist-in-csv). Place them in the /data directory and now model.py
 will run and train the classifer.
 
 The file for converting an image to a MNIST image and array was taken from [https://repl.it/@donovanchan/demo](https://repl.it/@donovanchan/demo)
